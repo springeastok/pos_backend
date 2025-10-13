@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# 仮想環境
+venv/
+env/
+ENV/
+SPRINGEAST/
+
+# 環境変数ファイル
+.env
+.env.local
+.env*.local
+*.env
+!.env.example
+
+# データベースファイル
+*.db
+*.sqlite
+*.sqlite3
+
+# SSL証明書
+*.crt.pem
+*.pem
+*.crt
+*.key
+
+# ログファイル
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# テスト
+.pytest_cache/
+.coverage
+
+# 一時ファイル
+*.tmp
+*.bak
+debug.py
+test_connection.py
+check_data.py
